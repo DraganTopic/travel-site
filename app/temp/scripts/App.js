@@ -11282,7 +11282,7 @@ var StickyHeader = function () {
     _createClass(StickyHeader, [{
         key: 'refreshWaypoints',
         value: function refreshWaypoints() {
-            this.addSmoothScrolling.lazyImages.on('load', function () {
+            this.lazyImages.on('load', function () {
                 Waypoint.refreshAll();
             });
         }
